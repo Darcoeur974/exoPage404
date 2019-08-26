@@ -1,0 +1,74 @@
+nav {
+    padding: 20px;
+}
+
+main {}
+
+footer {
+    background-color: green;
+}
+
+.navBar {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+ul {
+    display: inline-flex;
+    list-style-type: none;
+}
+
+li a {
+    color: black;
+    margin: 10px;
+    padding: 10px;
+}
+
+li a:hover {
+    color: black;
+    text-decoration: none;
+    background-color: lightgrey;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.section {
+    display: flex;
+}
+
+.miseenplace {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.eyes {
+    float: right;
+    position: relative;
+    right: 30%;
+    top: 10%;
+}
+
+.LE {
+    right: 60%;
+    top: 10%;
+}
+
+.RE {
+    left: -27%;
+    top: 13%;
+}
+
+.animation {}
+
+@keyframes {
+    from {
+        right: 60%;
+        top: 10%;
+    }
+    to {
+        right: 60%;
+        top: 10%;
+    }
+}
