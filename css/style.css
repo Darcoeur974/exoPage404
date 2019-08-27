@@ -51,24 +51,83 @@ h1 {
 }
 
 .LE {
-    right: 60%;
-    top: 10%;
+    right: 73%;
+    top: 11%;
+    animation: animation-LE 10s infinite;
 }
 
 .RE {
-    left: -27%;
+    right: 53%;
     top: 13%;
+    animation: animation-RE 10s infinite;
 }
 
-.animation {}
-
-@keyframes {
+@keyframes animation-LE {
     from {
-        right: 60%;
-        top: 10%;
+        right: 73%;
+        top: 11%;
+    }
+    10% {
+        right: 77%;
+        top: 8%;
+    }
+    20% {
+        right: 77%;
+        top: 8%;
+    }
+    40% {
+        right: 70%;
+        top: 8%;
+    }
+    50% {
+        top: 14%;
+        right: 71%;
+    }
+    60% {
+        top: 15%;
+        right: 77%;
+    }
+    70% {
+        right: 73%;
+        top: 12%;
     }
     to {
-        right: 60%;
-        top: 10%;
+        right: 73%;
+        top: 11%;
+    }
+}
+
+@keyframes animation-RE {
+    from {
+        right: 53%;
+        top: 13%;
+    }
+    10% {
+        right: 56%;
+        top: 11%;
+    }
+    20% {
+        right: 56%;
+        top: 11%;
+    }
+    40% {
+        right: 49%;
+        top: 11%;
+    }
+    50% {
+        right: 49%;
+        top: 15%
+    }
+    60% {
+        right: 56%;
+        top: 15%;
+    }
+    70% {
+        right: 53%;
+        top: 13%;
+    }
+    to {
+        right: 53%;
+        top: 13%;
     }
 }
